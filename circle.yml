@@ -1,0 +1,7 @@
+test:
+  override:
+    - bundle exec rubocop
+machine:
+  ruby:
+    version: 2.2.0
+  timezone: Asia/Tokyo
