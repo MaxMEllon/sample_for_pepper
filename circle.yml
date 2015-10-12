@@ -1,7 +1,6 @@
 test:
   override:
-    - bundle exec rubocop
+    - ruby ./fizz_buzz.rb
 machine:
   ruby:
     version: 2.2.0
-  timezone: Asia/Tokyo
