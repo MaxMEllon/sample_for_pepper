@@ -1,5 +1,4 @@
 sample_num = 100
-
 (0...sample_num).each do |n|
   print n.to_s << ' : '
   puts 'Fizz' if n % 3 == 0
